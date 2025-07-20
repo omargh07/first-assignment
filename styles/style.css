@@ -1,10 +1,15 @@
-
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+.raleway-uniquifier{
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+}
+
+
+/* Header Bg */
+.header{
+   background-image: url('../assets/Hero-bg.png');
+   padding: 30px 50px;
 }
 
 /* Nav Styles */
@@ -14,15 +19,31 @@ nav{
     justify-content: space-between;
     margin: 10px 150px;
     
+    
 }
 /* Shared Style */
-.color-primary{
-    color: #4E47FF;
-}
-.btn-primary{
+
+.btn-primary {
     background-color: #4E47FF;
     color: aliceblue;
     border-radius: 5px;
-    font-size: medium;
+    font-size: 20px;
+    font-weight: bold;
     padding: 10px 20px;
+}
+/* Banner Style */
+.banner {
+    display: block;
+    padding: 30px 100px;
+    align-items: center;
+}
+.banner-content{
+    
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    padding: 10px 30px;
+    
+    
 }
