@@ -4,7 +4,18 @@
   font-weight: weight;
   font-style: normal;
 }
-
+/* Font for Productive section*/
+.open-sans-uniquifier {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+   margin-bottom: 20px;
+}
 
 /* Header Bg */
 .header{
@@ -49,14 +60,17 @@ nav{
 
 .action-section{
     display: flex;
-    gap: 80px;
+    gap: 200px;
     margin: 116px 140px;
+    width: 1500px;
+    justify-content: space-between;
+    align-items: center;
 
 }
 .left-content{
     text-align: left;
-    margin: auto;
-    width: 50%;   
+    
+    
 }
 .action-title{
     font-size: 40px;
@@ -69,11 +83,47 @@ nav{
     font-weight: 500;
     color: rgba(37, 36, 50, 0.5);
 }
-img{
+.right-content img{
     border-radius: 50px;
+    margin-top: 20px;
 }
 
 .right-content{
     border-radius: 50px;
     
 }
+/* Productive Section */
+.productive-section{
+    background: rgba(78, 71, 255, 0.1);
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 20px;
+    max-width: 85%;
+    max-height: 30%;
+    margin: auto;
+    
+}
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+.card-users{
+    display: flex;
+    gap: 130px;
+    font-size: 80px;
+    font-weight: 700;
+    justify-content: space-around;
+    color: #4E47FF;
+    padding-top: 10px;
+    margin-bottom: 0px;
+   
+}
+.tag {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
+                       
