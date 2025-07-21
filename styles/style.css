@@ -1,5 +1,6 @@
 body{
     background: #F5F8FF;
+    overflow-x: hidden;
 }
 .raleway-uniquifier{
   font-family: "Raleway", sans-serif;
@@ -64,13 +65,21 @@ nav{
 }
 /* Action Section Start */
 
-.action-section{
-    display: flex;
-    gap: 200px;
-    margin: 116px 140px;
-    width: 1500px;
-    justify-content: space-between;
+/* .action-section{
+    max-width: 1140px;
+    height: 328px;
+    
+    gap: 600px;
+    margin: 116px auto;
+    
     align-items: center;
+  
+}
+
+.full-action{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
 
 }
 .left-content{
@@ -97,7 +106,38 @@ nav{
 .right-content{
     border-radius: 50px;
     
+} */
+
+.preview-section {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 87%;
+  margin: 0 auto;
+  padding: 60px 0px;
 }
+.text-part {
+  max-width: 45%;
+  text-align: left;
+}
+.action-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #252432;
+}
+.action-subtitle{
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.image-part img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 50px;
+}
+
 /* Productive User Section */
 .productive-section{
     background: rgba(78, 71, 255, 0.1);
@@ -139,7 +179,7 @@ nav{
 /* ------------Users Feedback Section--------*/
 .feedback-section{
     text-align: center;
-    padding: 80px 50px 80px 50px;
+    padding: 30px 50px 30px 50px;
     border-radius: 20px;
     max-width: 87%;
     height: 50%;
@@ -198,8 +238,8 @@ nav{
 
 /* Get In Touch Section */
 .touch-section{
-   width: 1500px;
-   margin: 70px 100px;
+   width: 87%;
+   margin: 10px 80px;
    text-align: center;
 
 }
@@ -253,7 +293,7 @@ section input[type="text"], section input[type="email"], section textarea{
 }
 .page-footer{
     
-    padding: 60px 455px 100px 450px ;
+    padding: 40px 455px 80px 450px ;
     text-align: center;
     
 }
