@@ -92,43 +92,108 @@ nav{
     border-radius: 50px;
     
 }
-/* Productive Section */
+/* Productive User Section */
 .productive-section{
     background: rgba(78, 71, 255, 0.1);
     text-align: center;
-    padding-top: 20px;
+    padding: 80px 50px 80px 50px;
     border-radius: 20px;
-    max-width: 85%;
-    max-height: 30%;
+    max-width: 82%;
+    height: 50%;
     margin: auto;
-    
+
 }
 .productive-title{
-    font-size: 38px;
+    margin: 0;
+    padding-bottom: 40px;
+    font-size: 40px;
     font-weight: bold;
     color: #252432;
 }
-.card-users{
+.parent-product{
     display: flex;
-    gap: 130px;
+    justify-content: space-around;
+}
+.parent-product h1 {
     font-size: 80px;
     font-weight: 700;
-    justify-content: space-around;
     color: #4E47FF;
-    padding-top: 10px;
-    margin-bottom: 0px;
-   
+    margin: 0;
+    
 }
-.tag {
+.parent-product p{
+    margin: 0;
     font-size: 20px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.5);
-    
 }
+
+/* --------------Challenging Part----------- */
+
+/* ------------Users Feedback Section--------*/
+.feedback-section{
+    text-align: center;
+    padding: 80px 50px 80px 50px;
+    border-radius: 20px;
+    max-width: 87%;
+    height: 50%;
+    margin: auto;
+}
+.user-review{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.users-profile{
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 30px 40px;
+
+}
+.review-title{
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+    padding: 50px 30px;
+    margin: 0;
+}
+.stars i {
+  color: gold;
+  margin-right: 4px;
+}
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+ margin-bottom: 0%;
+  
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-text {
+  display: flex;
+  flex-direction: column; 
+  line-height: 1.2;
+}
+
+.reviewer-text strong{
+  font-size: 14px;
+  font-weight: bold;
+  color: #757575;
+}
+
 /* Get In Touch Section */
 .touch-section{
    width: 1500px;
-   margin: 150px 100px;
+   margin: 70px 100px;
    text-align: center;
 
 }
@@ -169,7 +234,7 @@ section input[type="text"], section input[type="email"], section textarea{
     width: 105%;
 }
 /* Footer Start */
-.secoundary-bg{
+.secondary-bg{
     background-color: rgba(255, 255, 255, 1);
     text-align: center;
     
