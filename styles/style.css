@@ -64,57 +64,13 @@ nav{
     padding: 10px 30px; 
 }
 /* Action Section Start */
-
-/* .action-section{
-    max-width: 1140px;
-    height: 328px;
-    
-    gap: 600px;
-    margin: 116px auto;
-    
-    align-items: center;
-  
-}
-
-.full-action{
-    display: flex;
-    justify-content: space-between;
-    gap: 200px;
-
-}
-.left-content{
-    text-align: left;
-    
-    
-}
-.action-title{
-    font-size: 40px;
-    font-weight: 700;
-    color: #252432;
-}
-.action-subtitle{
-    line-height: 40px;
-    font-size: 24px;
-    font-weight: 500;
-    color: rgba(37, 36, 50, 0.5);
-}
-.right-content img{
-    border-radius: 50px;
-    margin-top: 20px;
-}
-
-.right-content{
-    border-radius: 50px;
-    
-} */
-
 .preview-section {
   display: flex;
   justify-content: space-between; 
   align-items: center;
   width: 87%;
   margin: 0 auto;
-  padding: 60px 0px;
+  padding: 100px 0px;
 }
 .text-part {
   max-width: 45%;
